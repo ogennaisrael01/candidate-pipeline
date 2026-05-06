@@ -2,6 +2,8 @@
 
 import express from "express";
 import { packageRoutes } from "./routes_controllers.js";
+import "./src/queue/events.js";
+import "./src/queue/worker.js"
 
 const app = express();
 
